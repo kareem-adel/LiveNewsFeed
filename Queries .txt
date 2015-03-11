@@ -1,0 +1,23 @@
+
+CREATE CONSTRAINT ON (a:User) ASSERT a.email IS UNIQUE
+
+
+CREATE (n:User { email:"eget.ipsum@metusAliquam.ca" });
+CREATE (n:User { email:"dolor.Donec.fringilla@musProinvel.net" });
+CREATE (n:User { email:"hendrerit@nullaatsem.net" });
+CREATE (n:User { email:"Nunc@amet.ca" });
+CREATE (n:User { email:"mauris.sagittis@enimEtiamimperdiet.co.uk" });
+CREATE (n:User { email:"id@augueid.org" });
+CREATE (n:User { email:"dolor@egetvarius.org" });
+CREATE (n:User { email:"ut@metusurnaconvallis.org" });
+CREATE (n:User { email:"odio.semper@nascetur.com" });
+CREATE (n:User { email:"Donec@faucibusorciluctus.edu" });
+
+
+CREATE (n:Restaurant { name:"Papa John's Pizza" });
+CREATE (n:Restaurant { name:"Peking" });
+CREATE (n:Restaurant { name:"Spectra" });
+CREATE (n:Restaurant { name:"Domino's Pizza" });
+CREATE (n:Restaurant { name:"Burger King" });
+
+
